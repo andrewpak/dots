@@ -1,0 +1,9 @@
+call plug#begin('~/.config/nvim/autoload/plugged')
+	Plug 'sheerun/vim-polyglot'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'ellisonleao/gruvbox.nvim'
+	Plug 'williamboman/nvim-lsp-installer'
+	Plug 'neovim/nvim-lspconfig'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
+call plug#end()
